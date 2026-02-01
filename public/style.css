@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    background-color: #222;
+    border: 2px solid #444;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #f8f8f8;
+}
+
+.safe-zone {
+    color: lime;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.health-bar {
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+}
